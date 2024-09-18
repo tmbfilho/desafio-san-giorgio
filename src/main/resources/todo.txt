@@ -1,0 +1,8 @@
+ok - retorno do controller.
+ok testes
+
+variáveis de ambiente no properties?
+script de banco de dados?
+colocar final e RequiredArgsConstructor em todos os AutoWired?
+
+subir no github

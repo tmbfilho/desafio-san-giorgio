@@ -1,0 +1,12 @@
+package br.com.uol.desafio.infra.queues.payment;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class PaymentExcessProducer extends AbstractPaymentProducer {
+
+    @Override
+    protected String getQueueUrl() {
+        return queuesConfig.getPaymentExcessUrl();
+    }
+}

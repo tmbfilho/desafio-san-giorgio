@@ -2,7 +2,7 @@
 
 ### Base de Dados
 Escolhi a base de dados MySQL para rodar a aplicação.  
-Assumi que o vendedor não estava na "amarrado" ao pagamento nas tabelas e por isso criei as tabelas a seguir com o mínimo de colunas para atender ao Caso de Uso:
+Assumi que o vendedor não estava "amarrado" ao pagamento na base de dados e por isso criei as tabelas a seguir com o mínimo de colunas para atender ao Caso de Uso:
 * TB_SELLER com dos dados do vendedor
 * TB_PAYMENT_REGISTER com os dados de pagamento
 
